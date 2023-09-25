@@ -8,7 +8,11 @@
 // I AM NOT DONE
 
 fn main() {
-    let a = ???
+    let mut a = String::new();
+
+    for _ in 0..26 {
+        a.push_str("Test")
+    }
 
     if a.len() >= 100 {
         println!("Wow, that's a big array!");
